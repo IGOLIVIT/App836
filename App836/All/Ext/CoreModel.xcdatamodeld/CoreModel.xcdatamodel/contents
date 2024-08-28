@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="FriendModel" representedClassName="FriendModel" syncable="YES" codeGenerationType="class">
+        <attribute name="fBirthday" optional="YES" attributeType="String"/>
+        <attribute name="fCost" optional="YES" attributeType="String"/>
+        <attribute name="fGift" optional="YES" attributeType="String"/>
+        <attribute name="fName" optional="YES" attributeType="String"/>
+        <attribute name="fPhoto" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="GiftModel" representedClassName="GiftModel" syncable="YES" codeGenerationType="class">
+        <attribute name="giCost" optional="YES" attributeType="String"/>
+        <attribute name="giFriend" optional="YES" attributeType="String"/>
+        <attribute name="giName" optional="YES" attributeType="String"/>
+    </entity>
+</model>
